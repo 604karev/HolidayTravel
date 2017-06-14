@@ -1,0 +1,248 @@
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+body {
+    font-family: "Roboto Bold", sans-serif;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+.headerContactInfo {
+    background-color: #1a1e2c;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+div.headerContactInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+}
+
+.headerContactInfo > div > ul {
+    margin-left: 10px;
+}
+
+.headerContactInfo > div > ul > li {
+    list-style-type: none;
+}
+
+div.headerAddress {
+    display: inline-flex;
+    align-items: center;
+}
+
+div.headerAddress > ul {
+    padding: 0 25px;
+}
+
+i.fa-envelope, i.fa-phone, i.fa-map-marker {
+    border-radius: 50%;
+    height: 38px;
+    width: 38px;
+    background-color: #fcbe16;
+    padding: 5px 7px;
+    float: left;
+}
+
+i.fa-envelope {
+    font-size: 24px;
+}
+
+i.fa-phone {
+    font-size: 30px;
+}
+
+i.fa-map-marker {
+    font-size: 30px;
+    padding: 5px 10px;
+}
+
+i.fa-vk, i.fa-twitter, i.fa-facebook {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    font-size: 18px;
+    position: relative;
+    color: #1a1e2c;
+}
+
+i.fa-vk:hover, i.fa-twitter:hover, i.fa-facebook:hover {
+    color: #265a88;
+}
+
+i.fa-vk:before, i.fa-twitter:before, i.fa-facebook:before {
+    position: absolute;
+}
+
+i.fa-vk:before {
+    top: 4px;
+    right: 4px;
+}
+
+i.fa-facebook:before {
+    top: 8px;
+    left: 6px;
+    font-size: 20px;
+}
+
+i.fa-twitter:before {
+    top: 5px;
+    right: 4px;
+}
+
+div.navbar-header > a > img {
+    padding-left: 40px;
+}
+
+div.headerMenu > nav {
+    margin: 0;
+}
+
+#headerMenu > ul {
+    font-size: 18px;
+}
+
+#headerMenu > ul > li {
+    padding: 50px 10px;
+    text-transform: uppercase;
+
+}
+
+#headerMenu {
+    padding: 0;
+}
+
+#headerMenu > ul > li > a {
+    padding: 0 10px;
+    color: #1a1e2c;
+}
+
+div.yourVacation {
+    background: url("../img/mainContentBg.png") no-repeat;
+    background-size: cover;
+}
+
+.yourVacation h1, .yourVacation h2, .yourVacation div {
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.yourVacation h2 {
+    padding-top: 80px;
+    font-size: 36px;
+}
+
+.yourVacation h1 {
+    font: 48px "Roboto Light", sans-serif;
+    padding-bottom: 160px;
+}
+
+.yourVacation div {
+    font: 36px 'Tahoma', sans-serif;
+    padding: 0 0 60px 10px;
+}
+
+div.marmaris, div.sharm, div.male, div.cyprus, div.samoa {
+    height: 155px;
+    width: 200px;
+    background-size: cover;
+}
+
+div.marmaris {
+    background: url("../img/marmaris.png") no-repeat;
+    position: relative;
+}
+
+div.sharm {
+    background: url("../img/sharm.png") no-repeat;
+    position: relative;
+}
+
+div.male {
+    background: url("../img/male.png") no-repeat;
+    position: relative;
+}
+
+div.cyprus {
+    background: url("../img/cyprus.png") no-repeat;
+    position: relative;
+}
+
+div.samoa {
+    background: url("../img/samoa.png") no-repeat;
+    position: relative;
+}
+
+.hotTour {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.hotTour > div {
+    margin: 0 20px;
+    transition: all .1s linear 0s;
+    -webkit-box-shadow: -2px -2px 17px 0 rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: -2px -2px 17px 0 rgba(0, 0, 0, 0.35);
+    box-shadow: -2px -2px 17px 0 rgba(0, 0, 0, 0.35);
+}
+
+.hotTour > div:hover {
+    transform: scale(1.3);
+}
+
+div.marmaris > a > span, div.sharm > a > span, div.male > a > span, div.cyprus > a > span, div.samoa > a > span {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+div.hotTour > div > a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+div.hotTour > div > a > span > span {
+    display: block;
+    color: #ffffff;
+}
+
+div.hotTour > div > a:hover {
+    cursor: url("../img/yourVacationCursor.png"), auto;
+}
+
+div.hotTour > div > a > span > span:last-child {
+    color: #fcbe16;
+}
+div.travelGallery > div > div > img{
+    width: 100%;
+    padding: 0;
+}
+div.travelGallery > div > div{
+padding: 0;
+}
+
+@media screen and (max-width: 1250px) {
+    div.yourVacation {
+        background-size: contain;
+    }
+
+}
