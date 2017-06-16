@@ -566,7 +566,7 @@ div.headerMenu > nav > div > div.navbar-header > button {
     }
 
     div.yourVacation {
-        padding: 60px 0;
+        padding: 80px 0;
     }
 
 
@@ -580,13 +580,16 @@ div.headerMenu > nav > div > div.navbar-header > button {
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 440px) {
     .yourVacation div {
         padding: 20px 0;
     }
 
     div.bestOffers, div.col-md-6.col-xs-12.allCountries > div {
         padding: 10px 0
+    }
+    div.yourVacation {
+        padding: 20px 0;
     }
 
 
