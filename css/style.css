@@ -462,6 +462,9 @@ div.headerMenu > nav > div > div.navbar-header > button {
 .navbar-nav {
     margin: 0;
 }
+div.travelGallery{
+    padding-top: 100px;
+}
 
 @media screen and (max-width: 1199px) {
     #headerMenu > ul {
