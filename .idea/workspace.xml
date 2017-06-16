@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a296d7-a28c-49c4-9d27-310cb17bc528" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -74,8 +71,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="373">
-                  <caret line="557" column="33" lean-forward="true" selection-start-line="557" selection-start-column="33" selection-end-line="557" selection-end-column="33" />
+                <state relative-caret-position="475">
+                  <caret line="563" column="17" lean-forward="false" selection-start-line="563" selection-start-column="9" selection-end-line="563" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -352,12 +349,12 @@
       <updated>1497376438483</updated>
       <workItem from="1497376439634" duration="236000" />
       <workItem from="1497377153079" duration="16000" />
-      <workItem from="1497377182592" duration="101573000" />
+      <workItem from="1497377182592" duration="101743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101825000" />
+    <option name="totallyTimeSpent" value="101995000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -487,8 +484,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="557" column="33" lean-forward="true" selection-start-line="557" selection-start-column="33" selection-end-line="557" selection-end-column="33" />
+        <state relative-caret-position="475">
+          <caret line="563" column="17" lean-forward="false" selection-start-line="563" selection-start-column="9" selection-end-line="563" selection-end-column="17" />
           <folding />
         </state>
       </provider>

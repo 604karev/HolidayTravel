@@ -562,7 +562,7 @@ div.headerMenu > nav > div > div.navbar-header > button {
 
 @media screen and (max-width: 680px) {
     .yourVacation div {
-        padding: 20px 0;
+        padding: 0;
     }
 
     div.yourVacation {
