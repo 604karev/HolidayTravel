@@ -12,7 +12,7 @@ $('.hotTour').slick({
             breakpoint: 1024,
             settings: {
                 slidesToShow: 3,
-                slidesToScroll: 3,
+                slidesToScroll: 1,
                 infinite: true,
                 dots: true
             }
@@ -21,7 +21,7 @@ $('.hotTour').slick({
             breakpoint: 600,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2,
+                slidesToScroll: 1,
                 dots: true
             }
         },
@@ -37,9 +37,49 @@ $('.hotTour').slick({
     ]
 });
 $('.offersSlider').slick({
+    dots: false,
     infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1
+    speed: 300,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 1600,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: true
+
+            }
+        },
+        {
+            breakpoint: 1401,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true
+
+            }
+        },
+        {
+            breakpoint: 1050,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true
+
+            }
+        },
+        {
+            breakpoint: 730,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true
+            }
+        }
+
+    ]
 });
 
 $('.tourOperatorSlider').slick({
@@ -55,7 +95,16 @@ $('.tourOperatorSlider').slick({
             breakpoint: 1201,
             settings: {
                 slidesToShow: 4,
-                slidesToScroll: 3,
+                slidesToScroll: 1,
+                infinite: true
+
+            }
+        },
+        {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
                 infinite: true
 
             }
@@ -64,7 +113,7 @@ $('.tourOperatorSlider').slick({
             breakpoint: 600,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2,
+                slidesToScroll: 1,
                 infinite: true
 
             }

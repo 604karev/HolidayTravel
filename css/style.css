@@ -10,6 +10,7 @@
 
 body {
     font-family: "Roboto Bold", sans-serif;
+
 }
 
 ul {
@@ -108,6 +109,7 @@ div.navbar-header > a > img {
 
 div.headerMenu > nav {
     margin: 0;
+    border: none;
 }
 
 #headerMenu > ul {
@@ -132,6 +134,7 @@ div.headerMenu > nav {
 div.yourVacation {
     background: url("../img/mainContentBg.png") no-repeat;
     background-size: cover;
+    padding: 80px 0;
 }
 
 .yourVacation h1, .yourVacation h2, .yourVacation div {
@@ -142,18 +145,16 @@ div.yourVacation {
 }
 
 .yourVacation h2 {
-    padding-top: 80px;
     font-size: 36px;
 }
 
 .yourVacation h1 {
     font: 48px "Roboto Light", sans-serif;
-    padding-bottom: 160px;
 }
 
 .yourVacation div {
     font: 36px 'Tahoma', sans-serif;
-    padding: 0 0 60px 10px;
+    padding: 150px 10px 0 10px;
 }
 
 div.marmaris, div.sharm, div.male, div.cyprus, div.samoa {
@@ -166,7 +167,7 @@ div.marmaris, div.sharm, div.male, div.cyprus, div.samoa {
 }
 
 div.hotTour.slick-initialized.slick-slider {
-    margin: 30px 10px;
+    margin: 0px 10px 30px 10px;
 }
 
 body > div.mainContent > div.hotTour.slick-initialized.slick-slider > div > div > div > a > img {
@@ -351,9 +352,9 @@ div.bestOffers > div > button.slick-prev.slick-arrow:before, div.bestOffers > di
 }
 
 div.bestOffers {
-    margin: 40px auto;
     background: url("../img/bestOffersBackground.png") no-repeat;
     background-size: cover;
+    padding: 130px 0 75px 0;
 }
 
 .bestOffers > h2 {
@@ -422,20 +423,171 @@ div.bestOffers > div > div > div > div > a > span.price:before {
     position: absolute;
     top: 5px;
     bottom: 0;
-    left: 20px;
+    left: 18px;
     background: url("../img/aeroplane.png");
     background-size: cover;
 }
-.tourOperatorSlider div{
+
+.tourOperatorSlider div {
     height: 90px;
 }
-div.tourOperatorSlider{
-    margin: 20px 40px;
+
+div.tourOperatorSlider {
+    margin: 30px 40px;
+
 }
 
-@media screen and (max-width: 1250px) {
+div.operators {
+    font: 24px 'Tahoma', sans-serif;
+    margin: 150px 200px 0 200px;
+    text-align: center;
+}
+
+div.footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #1a1e2c;
+    color: #ffffff;
+    font: 18px 'Tahoma', sans-serif;
+}
+
+div.footer > div > div {
+    margin-top: 15px;
+}
+
+div.headerMenu > nav > div > div.navbar-header > button {
+    margin-top: 35px;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+@media screen and (max-width: 1199px) {
+    #headerMenu > ul {
+        font-size: 14px;
+    }
+
+    #headerMenu > ul > li {
+        padding: 50px 0;
+    }
+
+    div.navbar-header > a > img {
+        padding-left: 0;
+    }
+
+    .yourVacation div {
+        padding: 60px 10px 0 10px;
+    }
+
+    div.yourVacation {
+        padding: 60px 0;
+    }
+
+    .yourVacation h2, .yourVacation div {
+        font-size: 28px;
+
+    }
+
+    .yourVacation h1 {
+        font-size: 36px;
+    }
+
+    div.operators {
+        margin: 80px 100px 0 100px;
+        font-size: 20px;
+    }
+
+    div.bestOffers > div > div > div > div > a > span > span {
+        font-size: 20px;
+    }
+
+    .imgHovered > span {
+        font-size: 25px;
+    }
+
+    .bestOffers > h2 {
+        font-size: 28px;
+    }
+
+    div.allCountries {
+        font-size: 28px;
+    }
+
+    div.bestOffers {
+        padding: 70px 0 30px 0;
+    }
+
+}
+
+@media screen and (max-width: 855px) {
+    #headerMenu > ul {
+        font-size: 13px;
+    }
+
     div.yourVacation {
         background-size: contain;
     }
+
+}
+
+@media screen and (max-width: 849px) {
+    #headerMenu > ul > li {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .yourVacation div {
+        padding: 80px 0;
+    }
+
+    div.yourVacation {
+        padding: 40px 0;
+    }
+
+    .yourVacation h1 {
+        font-size: 26px;
+    }
+
+    .yourVacation h2, .yourVacation div {
+        font-size: 18px;
+
+    }
+
+    div.operators {
+        margin: 20px 40px 0 40px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .yourVacation div {
+        padding: 20px 0;
+    }
+
+    div.yourVacation {
+        padding: 60px 0;
+    }
+
+
+    div.operators {
+        margin: 10px 20px 0 20px;
+        font-size: 15px;
+    }
+
+    .yourVacation h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .yourVacation div {
+        padding: 20px 0;
+    }
+
+    div.bestOffers, div.col-md-6.col-xs-12.allCountries > div {
+        padding: 10px 0
+    }
+
 
 }
