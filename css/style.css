@@ -157,87 +157,280 @@ div.yourVacation {
 }
 
 div.marmaris, div.sharm, div.male, div.cyprus, div.samoa {
-    height: 155px;
-    width: 200px;
-    background-size: cover;
+    height: 187px;
+
 }
 
-div.marmaris {
-    background: url("../img/marmaris.png") no-repeat;
-    position: relative;
+.slick-track {
+    padding: 20px 0;
 }
 
-div.sharm {
-    background: url("../img/sharm.png") no-repeat;
-    position: relative;
+div.hotTour.slick-initialized.slick-slider {
+    margin: 30px 10px;
 }
 
-div.male {
-    background: url("../img/male.png") no-repeat;
-    position: relative;
-}
-
-div.cyprus {
-    background: url("../img/cyprus.png") no-repeat;
-    position: relative;
-}
-
-div.samoa {
-    background: url("../img/samoa.png") no-repeat;
-    position: relative;
-}
-
-.hotTour {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-
-.hotTour > div {
-    margin: 0 20px;
-    transition: all .1s linear 0s;
+body > div.mainContent > div.hotTour.slick-initialized.slick-slider > div > div > div > a > img {
+    width: 100%;
+    height: 100%;
     -webkit-box-shadow: -2px -2px 17px 0 rgba(0, 0, 0, 0.35);
     -moz-box-shadow: -2px -2px 17px 0 rgba(0, 0, 0, 0.35);
     box-shadow: -2px -2px 17px 0 rgba(0, 0, 0, 0.35);
 }
 
-.hotTour > div:hover {
-    transform: scale(1.3);
+body > div.mainContent > div.hotTour.slick-initialized.slick-slider > div > div > div > a {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    transition: all .1s linear 0s;
+
 }
 
-div.marmaris > a > span, div.sharm > a > span, div.male > a > span, div.cyprus > a > span, div.samoa > a > span {
+body > div.mainContent > div.hotTour.slick-initialized.slick-slider > div > div > div > a:hover {
+    transform: scale(1.2);
+    cursor: url("../img/yourVacationCursor.png"), auto;
+
+}
+
+body > div.mainContent > div.hotTour.slick-initialized.slick-slider > div > div > div > a > span {
+    display: block;
     background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+div.hotTour.slick-initialized.slick-slider > div > div > div > a > span > span {
+    display: block;
+}
+
+div.hotTour.slick-initialized.slick-slider > div > div > div > a > span > span:last-child {
+    color: #fcbe16;
+    margin-bottom: 5px;
+}
+
+div.hotTour.slick-initialized.slick-slider > button {
+    visibility: hidden;
+}
+
+div.travelGallery > div > div > img {
+    width: 100%;
+    padding: 0;
+}
+
+div.travelGallery > div > div {
+    padding: 0;
+    position: relative;
+}
+
+div.allCountries {
+    background-color: #1a1e2c;
+    text-align: center;
+    font: 30px "Tahoma";
+    text-transform: lowercase;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.flexible {
+    display: flex;
+}
+
+div.col-md-6.col-xs-12.allCountries > div {
+    margin: auto;
+    padding: 50px 0;
+}
+
+div.allCountries > div > a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+div.imgHovered {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: url("../img/yourVacationCursor.png"), auto;
+}
+
+.imgHovered > span, .imgHovered > a {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: 20px;
+    color: #ffffff;
+    transition: all .1s linear 0s;
+    text-align: center;
+    font-size: 30px;
+}
+
+.imgHovered > span:nth-child(2) {
+    font-size: 18px;
+    visibility: hidden;
+    transition: all .1s linear 0s;
+}
+
+.imgHovered > a {
+    visibility: hidden;
+    bottom: -100%;
+    font-size: 17px;
+    border: 1px solid #fcbe16;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    margin: auto 60px;
+}
+
+.imgHovered:hover > span:nth-child(1) {
+    bottom: 90px;
+    text-decoration: underline;
+}
+
+.imgHovered:hover > span:nth-child(2) {
+    visibility: visible;
+}
+
+.imgHovered:hover > a {
+    visibility: visible;
+    bottom: -60px;
+
+}
+
+.imgHovered > * {
+    position: absolute;
+}
+
+div.offersSlider {
+    margin: 20px 40px;
+    text-align: center;
+}
+
+div.bestOffers > div > div > div > div > a > img {
+    width: 100%;
+    height: 100%;
+}
+
+.offersSlider div {
+    height: 365px;
+}
+
+div.bestOffers > div > div > div > div {
+    padding: 20px;
+}
+
+div.bestOffers > div > div > div {
+    padding: 0;
+}
+
+div.bestOffers > div > button.slick-prev.slick-arrow {
+    background: url("../img/leftArrow.png") no-repeat;
+    background-size: cover;
+    height: 35px;
+    width: 22px;
+}
+
+div.bestOffers > div > button.slick-next.slick-arrow {
+    background: url("../img/rightArrow.png") no-repeat;
+    background-size: cover;
+    height: 35px;
+    width: 22px;
+}
+
+div.bestOffers > div > button.slick-prev.slick-arrow:before, div.bestOffers > div > button.slick-next.slick-arrow:before {
+    content: '';
+
+}
+
+div.bestOffers {
+    margin: 40px auto;
+    background: url("../img/bestOffersBackground.png") no-repeat;
+    background-size: cover;
+}
+
+.bestOffers > h2 {
+    text-transform: lowercase;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+div.bestOffers > div > div > div > div > a > span {
+    display: block;
+    background-color: #ffffff;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     text-align: center;
+
 }
 
-div.hotTour > div > a {
+div.bestOffers > div > div > div > div > a > span > span {
     display: block;
-    height: 100%;
+}
+
+body > div.mainContent > div.bestOffers > div > div > div > div > a {
     width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    -webkit-box-shadow: -2px -2px 17px 0 rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: -2px -2px 17px 0 rgba(0, 0, 0, 0.35);
+    box-shadow: -2px -2px 17px 0 rgba(0, 0, 0, 0.35);
 }
 
-div.hotTour > div > a > span > span {
+div.bestOffers > div > div > div > div > a > span > span {
+    font: 24px 'Tahoma', sans-serif;
+    color: #000000;
+}
+
+div.bestOffers > div > div > div > div > a > span > span:nth-child(1) {
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+div.bestOffers > div > div > div > div > a > span > span:nth-child(2) {
+    padding-bottom: 15px;
+}
+
+div.bestOffers > div > div > div > div > a > span.price {
     display: block;
+    background-color: #ffb619;
+    position: absolute;
+    top: 20px;
+    right: 165px;
+    text-align: right;
+    bottom: auto;
+    padding: 10px 30px;
     color: #ffffff;
 }
 
-div.hotTour > div > a:hover {
-    cursor: url("../img/yourVacationCursor.png"), auto;
+div.bestOffers > div > div > div > div > a > span.price:before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    bottom: 0;
+    left: 20px;
+    background: url("../img/aeroplane.png");
+    background-size: cover;
 }
-
-div.hotTour > div > a > span > span:last-child {
-    color: #fcbe16;
+.tourOperatorSlider div{
+    height: 90px;
 }
-div.travelGallery > div > div > img{
-    width: 100%;
-    padding: 0;
-}
-div.travelGallery > div > div{
-padding: 0;
+div.tourOperatorSlider{
+    margin: 20px 40px;
 }
 
 @media screen and (max-width: 1250px) {
