@@ -465,6 +465,11 @@ div.headerMenu > nav > div > div.navbar-header > button {
 div.travelGallery{
     padding-top: 100px;
 }
+@media screen and (max-width: 1208px){
+    div.yourVacation{
+        background-size: contain;
+    }
+}
 
 @media screen and (max-width: 1199px) {
     #headerMenu > ul {
@@ -519,6 +524,9 @@ div.travelGallery{
 
     div.bestOffers {
         padding: 70px 0 30px 0;
+    }
+    div.yourVacation{
+        background-size: cover;
     }
 
 }
